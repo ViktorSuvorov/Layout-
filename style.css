@@ -16,7 +16,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   color: #727272;
   margin: 0;
   padding: 0;
@@ -34,8 +34,7 @@ ul {
 h1 {
   font-size: 48px;
   font-weight: 500;
-  line-height: 79px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   color: #000000;
 }
 
@@ -47,7 +46,6 @@ h2 {
 
 p {
   font-size: 16px;
-  line-height: 26px;
   color: #727272;
 }
 
@@ -93,7 +91,7 @@ button:hover {
   color: #34547a;
   margin-top: 57px;
   text-transform: uppercase;
-  line-height: 60px;
+  line-height: 1.25;
 }
 /* /Header */
 
@@ -129,26 +127,29 @@ button:hover {
   justify-items: start;
   padding-top: 164px;
   padding-bottom: 145px;
-  padding-left: 80px;
 }
 
 .design__image {
   margin-right: 143px;
-  margin-top: 20px;
-  
+  margin-top: 30px;
 }
 
 .design__image img {
   display: block;
   max-width: 100%;
-  /* padding-top: 40px; */
+  padding-left: 85px;
 }
 
 .design__text {
-  max-width: 540px; 
+  /* max-width: 540px;  */
 }
 
-.design__text p {
+.design__text p,h1 {
+  margin-bottom: 48px;
+}
+
+.design__text-title,
+.design__text-subtitle {
   margin-bottom: 60px;
 }
 /* /Design */
