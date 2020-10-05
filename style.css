@@ -266,7 +266,7 @@ button:hover {
   padding-left: 16px;
   padding-right: 16px;
   margin: 0 auto;
-  margin-bottom: 48px;
+  margin-bottom: 55px;
   
 }
 .works__video {
@@ -305,6 +305,9 @@ button:hover {
   background: #eeeff1;
 }
 
+.offer p {
+  margin-bottom: 60px;
+}
 .offer__wrapper {
   text-align: center;
   padding-top: 100px;
@@ -317,7 +320,6 @@ button:hover {
 .offer__form {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 65px;
   column-gap: 30px;
 }
 
@@ -333,6 +335,7 @@ button:hover {
   padding-top: 17px;
   padding-bottom: 18px;
   resize: none;
+  margin-bottom: 50px;
 }
 
 .offer input {
@@ -346,7 +349,7 @@ button:hover {
 }
 
 .offer button {
-  margin-top: 50px;
+  padding: 20px 19px;
 }
 /* /Offer */
 
@@ -366,6 +369,13 @@ footer {
   color: #ffffff;
   font-size: 21px;
   font-weight: 500;
+}
+
+.footer__author h3 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1.19;
 }
 
 .footer__copyrights {
