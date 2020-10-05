@@ -34,6 +34,7 @@ ul {
 h1 {
   font-size: 48px;
   font-weight: 500;
+  line-height: 79px;
   margin-bottom: 60px;
   color: #000000;
 }
@@ -51,12 +52,14 @@ p {
 }
 
 button {
-  width: 225px;
-  height: 60px;
   background-color: #34547a;
   color: white;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+
+.design__text-button {
+  padding: 25px 41px;
 }
 
 button:hover {
@@ -73,7 +76,7 @@ button:hover {
 /* /General things */
 
 /* Header */
-header {
+.header {
   background: #eeeff1;
 }
 
@@ -81,37 +84,39 @@ header {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .header__logo {
   font-family: "Revalia", cursive;
   font-size: 48px;
   color: #34547a;
-  margin-top: 58px;
+  margin-top: 57px;
   text-transform: uppercase;
+  line-height: 60px;
 }
-/* /header */
+/* /Header */
 
-/* navigation  */
-nav {
+/* Navigation  */
+.header-nav {
   margin-top: 80px;
+  padding-right:45px ;
 }
 
-nav a {
+.header-nav__link {
   list-style: none;
-  display: inline;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  margin-left: 42px;
+  margin-right:42px;
 }
 
-nav :active {
+.header-nav__link--active {
   font-weight: 500;
   color: #34547a;
 }
-/* /navigation */
+/* /Navigation */
 
 /* Design */
 .design {
@@ -122,27 +127,29 @@ nav :active {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: start;
-  padding-top: 160px;
+  padding-top: 164px;
   padding-bottom: 145px;
+  padding-left: 80px;
 }
 
 .design__image {
-  justify-self: right;
-  margin-right: 131px;
+  margin-right: 143px;
+  margin-top: 20px;
+  
 }
 
 .design__image img {
   display: block;
   max-width: 100%;
+  /* padding-top: 40px; */
 }
 
 .design__text {
-  max-width: 540px;
-  margin-left: 14px;
+  max-width: 540px; 
 }
 
-.design__text button {
-  margin-top: 60px;
+.design__text p {
+  margin-bottom: 60px;
 }
 /* /Design */
 
@@ -362,7 +369,7 @@ nav :active {
 }
 /* /Offer */
 
-/* footer */
+/* Footer */
 footer {
   background: #34547a;
 }
@@ -389,7 +396,7 @@ footer {
 .footer__links a {
   margin-left: 22px;
 }
-/* /footer */
+/* /Footer */
 
 /* Media */
 @media (max-width: 1279px) {

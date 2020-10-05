@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,17 +12,16 @@
 
 <body>
     <!-- header -->
-    <header>
+    <header class="header">
         <div class="wrapper">
             <div class="header__wrapper">
-
                 <div class="header__logo">wd</div>
-                <nav>
-                    <a href="#">Главная</a>
-                    <a href="#">Об авторе</a>
-                    <a href="#">Работы</a>
-                    <a href="#">Процесс</a>
-                    <a href="#">Контакты</a>
+                <nav class="header-nav">
+                    <a class="header-nav__link header-nav__link--active" href="#">Главная</a>
+                    <a class="header-nav__link" href="#">Об авторе</a>
+                    <a class="header-nav__link" href="#">Работы</a>
+                    <a class="header-nav__link" href="#">Процесс</a>
+                    <a class="header-nav__link" href="#">Контакты</a>
                 </nav>
             </div>
         </div>
@@ -38,7 +38,7 @@
                     <h1>Дизайн и верстка</h1>
                     <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                         стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
-                    <button type="button"> Написать мне </button>
+                    <button class="button design__text-button" type="button"> Написать мне </button>
                 </div>
             </div>
         </div>
@@ -172,9 +172,9 @@
                     <div class="offer__form">
                         <input type="text" placeholder="Ваше имя">
                         <input type="text" placeholder="Ваш e-mail">
-                        <textarea class="form__message" name="" id="" cols="30" rows="10">Сообщения</textarea>
+                        <textarea class="offer__message" name="" id="" cols="30" rows="10">Сообщения</textarea>
                     </div>
-                    <button class="form-button" type="button">Отправить</button>
+                    <button class="button offer-button" type="button">Отправить</button>
                 </form>
             </div>
         </div>
@@ -199,4 +199,5 @@
         </div>
     </footer>
     <!-- /footer -->
+
 </html>
