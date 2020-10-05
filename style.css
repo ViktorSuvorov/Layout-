@@ -202,16 +202,17 @@ button:hover {
 
 .skills__info {
   justify-self: right;
-  padding-right: 129px;
   width: 50%;
 }
 
+.skills__info p {
+  margin-bottom: 15px;
+}
+
 .skills__skill {
-  padding-top: 8px;
 }
 
 .skills__photo {
-  margin-left: 21px;
   width: 50%;
 }
 
@@ -226,6 +227,7 @@ button:hover {
   background: #c4c4c4;
   max-width: 445px;
   height: 4px;
+  margin-bottom: 30px;
 }
 
 .skills__slider::before {
@@ -252,36 +254,46 @@ button:hover {
 }
 
 .works__wrapper h2 {
-  max-width: 540px;
+  max-width: 572px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-right: auto;
   margin-left: auto;
 }
 
 .works__wrapper p {
-  max-width: 540px;
+  max-width: 572px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin: 0 auto;
+  margin-bottom: 48px;
+  
 }
-
 .works__video {
   position: relative;
-  margin-top: 57px;
-  background-color: #000000;
 }
 
-.works__video::after {
+.works__video-bg {
   position: absolute;
-  content: url(/img/play-button.svg);
-  opacity: 0.9;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
+  background: rgba(0,0,0, 0.65);
+  width: 100%;
+  height: 100%;
+  top: 0%;
 }
 
 .works__video img {
   display: block;
-  opacity: 0.65;
   width: 100%;
+}
+ 
+.works__video-bg::after {
+  position: absolute;
+  content: url(/img/play-button.svg);
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  cursor: pointer;
 }
 
 /* Projects */
