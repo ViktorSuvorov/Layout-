@@ -297,34 +297,7 @@ button:hover {
 }
 
 /* Projects */
-.projects {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  cursor: pointer;
-}
 
-.projects img {
-  display: block;
-  width: 100%;
-}
-
-.projects img:hover {
-  opacity: 0.2;
-}
-
-.projects__item {
-  position: relative;
-  background-color: rgba(52, 84, 122, 0.8);
-}
-
-.projects__item:hover::before {
-  position: absolute;
-  content: url(/img/view.svg);
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-}
 /* /Projects */
 
 /* Offer */
