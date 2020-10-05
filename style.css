@@ -40,7 +40,7 @@ h1 {
 
 h2 {
   font-size: 32px;
-  margin-bottom: 50px;
+  margin-bottom: 38px;
   color: #000000;
 }
 
@@ -130,7 +130,7 @@ button:hover {
 }
 
 .design__image {
-  margin-right: 143px;
+  /* margin-right: 143px; */
   margin-top: 30px;
 }
 
@@ -141,27 +141,22 @@ button:hover {
 }
 
 .design__text {
-  /* max-width: 540px;  */
+  max-width: 540px; 
 }
 
 .design__text p,h1 {
   margin-bottom: 48px;
-}
-
-.design__text-title,
-.design__text-subtitle {
-  margin-bottom: 60px;
 }
 /* /Design */
 
 /* About me */
 .about-me {
   text-align: center;
-  padding-top: 120px;
+  padding-top: 119px;
   padding-bottom: 100px;
   padding-left: 16px;
   padding-right: 16px;
-  max-width: 540px;
+  max-width: 572px;
   margin: 0 auto;
 }
 /* /About me */
@@ -190,7 +185,7 @@ button:hover {
 }
 
 .numbers__item-text {
-  margin-left: 10px;
+  margin-left: 20px;
 }
 /* /Numbers */
 
@@ -582,6 +577,14 @@ footer {
   }
   .offer__message {
     grid-column: 1 / 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .design__image img {
+    display: block;
+    max-width: 100%;
+    padding-left:0px;
   }
 }
 /* end */
