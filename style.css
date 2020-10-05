@@ -298,6 +298,20 @@ button:hover {
 
 /* Projects */
 
+.projects-grid__row {
+  margin: 0 auto; 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projects-grid__row-item {
+width: 25%;
+}
+
+.projects-grid__row-item img {
+  width: 100%;
+  display: block;
+}
 /* /Projects */
 
 /* Offer */
