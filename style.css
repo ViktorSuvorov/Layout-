@@ -305,6 +305,7 @@ button:hover {
 }
 
 .projects-grid__row-item {
+position: relative;
 width: 25%;
 }
 
@@ -312,6 +313,7 @@ width: 25%;
   width: 100%;
   display: block;
 }
+
 /* /Projects */
 
 /* Offer */
