@@ -181,16 +181,16 @@ h1 {
   display: flex;
 }
 
-.numbers__item h3 {
+.numbers-item__text h3 {
   font-weight: 500;
   font-size: 21px;
 }
 
-.numbers__item-text {
+.numbers-item__text {
   margin-left: 20px;
 }
 
-.numbers__item-text p {
+.numbers-item__text p {
   color: #fff;
 }
 /* /Numbers */
@@ -296,7 +296,7 @@ h1 {
 .works__video-bg img {
   width: 10%;
   display: block;
-  cursor: pointer;
+  cursor: ;
 }
 
 /* Projects */
