@@ -206,12 +206,12 @@ h1 {
   margin: 0 auto;
 }
 
-.skills__info {
+.skills-info {
   justify-self: right;
   width: 50%;
 }
 
-.skills__info p {
+.skills-info__skills p {
   margin-bottom: 15px;
 }
 
@@ -225,7 +225,7 @@ h1 {
   max-width: 555px;
 }
 
-.skills__slider {
+.skills-list__item {
   position: relative;
   background: #c4c4c4;
   max-width: 445px;
@@ -233,7 +233,7 @@ h1 {
   margin-bottom: 30px;
 }
 
-.skills__slider::before {
+.skills-list__item::before {
   content: "";
   position: absolute;
   background: #34547a;
@@ -493,7 +493,7 @@ footer {
 }
 
 @media (max-width: 1279px) {
-  .skills__info {
+  .skills-info {
     width: 100%;
     max-width: 540px;
     padding-left: 24px;
@@ -501,7 +501,7 @@ footer {
     justify-self: center;
     margin: 0 auto;
   }
-  .skills__info h2 {
+  .skills-info h2 {
     text-align: center;
   }
 }
