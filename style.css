@@ -98,7 +98,7 @@ button:hover {
 /* Navigation  */
 .header-nav {
   margin-top: 80px;
-  padding-right:45px ;
+  padding-right: 45px;
 }
 
 .header-nav__link {
@@ -107,7 +107,7 @@ button:hover {
   text-decoration: none;
   color: #000000;
   font-weight: 400;
-  margin-right:42px;
+  margin-right: 42px;
 }
 
 .header-nav__link--active {
@@ -141,10 +141,11 @@ button:hover {
 }
 
 .design__text {
-  max-width: 540px; 
+  max-width: 540px;
 }
 
-.design__text p,h1 {
+.design__text p,
+h1 {
   margin-bottom: 48px;
 }
 /* /Design */
@@ -267,7 +268,6 @@ button:hover {
   padding-right: 16px;
   margin: 0 auto;
   margin-bottom: 55px;
-  
 }
 .works__video {
   position: relative;
@@ -275,7 +275,7 @@ button:hover {
 
 .works__video-bg {
   position: absolute;
-  background: rgba(0,0,0, 0.65);
+  background: rgba(0, 0, 0, 0.65);
   width: 100%;
   height: 100%;
   top: 0%;
@@ -285,7 +285,7 @@ button:hover {
   display: block;
   width: 100%;
 }
- 
+
 .works__video-bg::after {
   position: absolute;
   content: url(/img/play-button.svg);
@@ -299,21 +299,49 @@ button:hover {
 /* Projects */
 
 .projects-grid__row {
-  margin: 0 auto; 
+  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 .projects-grid__row-item {
-position: relative;
-width: 25%;
+  position: relative;
+  width: 25%;
+}
+
+.projects-grid__row-item:hover::before {
+ content: url(/img/view.svg);
+  position: absolute;
+  z-index: 5;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+  cursor: pointer;
+}
+
+.projects-grid__row-item--overlay {
+content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(52, 84, 122, 0.8);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.projects-grid__row-item--overlay:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .projects-grid__row-item img {
   width: 100%;
   display: block;
+  height: auto;
 }
-
 /* /Projects */
 
 /* Offer */
@@ -595,7 +623,7 @@ footer {
   .design__image img {
     display: block;
     max-width: 100%;
-    padding-left:0px;
+    padding-left: 0px;
   }
 }
 /* end */
