@@ -296,6 +296,7 @@ h1 {
 .works__video-bg img {
   width: 10%;
   display: block;
+  cursor: pointer;
 }
 
 /* Projects */
@@ -619,6 +620,8 @@ footer {
     padding-bottom: 90px;
     padding-top: 90px;
   }
+  
+
   .works__video-bg img {
     width: 25%;
   }
