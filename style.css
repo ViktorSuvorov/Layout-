@@ -173,6 +173,7 @@ h1 {
   justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
+  padding-right:30px ;
   color: #fff;
 }
 
@@ -187,6 +188,10 @@ h1 {
 
 .numbers__item-text {
   margin-left: 20px;
+}
+
+.numbers__item-text p{
+  color: #fff;
 }
 /* /Numbers */
 
@@ -297,11 +302,13 @@ h1 {
 }
 
 /* Projects */
-
 .projects-grid__row {
   margin: 0 auto;
   display: flex;
+  /* flex-direction: row;  */
   flex-wrap: wrap;
+  padding-top: 28px;
+  padding-bottom: 28px;
 }
 
 .projects-grid__row-item {
@@ -309,19 +316,19 @@ h1 {
   width: 25%;
 }
 
-.projects-grid__row-item:hover::before {
- content: url(/img/view.svg);
+/* .projects-grid__row-item-overlay-view {
+  content: url(/img/Group.png);
   position: absolute;
-  z-index: 5;
   top: 50%;
   left: 50%;
   margin-top: -50px;
   margin-left: -50px;
   cursor: pointer;
-}
+  opacity: 0;
+  z-index: 5;
+} */
 
-.projects-grid__row-item--overlay {
-content: "";
+.projects-grid__row-item-overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -330,9 +337,14 @@ content: "";
   background-color: rgba(52, 84, 122, 0.8);
   opacity: 0;
   transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-.projects-grid__row-item--overlay:hover {
+
+
+.projects-grid__row-item-overlay:hover {
   opacity: 1;
   cursor: pointer;
 }
@@ -342,6 +354,10 @@ content: "";
   display: block;
   height: auto;
 }
+.projects-grid__row-item-overlay img {
+  width: 25%;
+}
+
 /* /Projects */
 
 /* Offer */
@@ -407,6 +423,7 @@ footer {
   justify-content: space-between;
   padding-top: 50px;
   padding-bottom: 50px;
+  align-items: center;
 }
 
 .footer__author {
@@ -624,6 +641,12 @@ footer {
     display: block;
     max-width: 100%;
     padding-left: 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-grid__row-item {
+   width: 50%;
   }
 }
 /* end */
