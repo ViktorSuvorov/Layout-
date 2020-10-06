@@ -283,22 +283,24 @@ h1 {
   background: rgba(0, 0, 0, 0.65);
   width: 100%;
   height: 100%;
-  top: 0%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
 }
+
+
 
 .works__video img {
   display: block;
   width: 100%;
 }
 
-.works__video-bg::after {
-  position: absolute;
-  content: url(/img/play-button.svg);
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-  cursor: pointer;
+.works__video-bg img {
+  width: 10%;
+  display: block;
 }
 
 /* Projects */
@@ -315,18 +317,6 @@ h1 {
   position: relative;
   width: 25%;
 }
-
-/* .projects-grid__row-item-overlay-view {
-  content: url(/img/Group.png);
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-top: -50px;
-  margin-left: -50px;
-  cursor: pointer;
-  opacity: 0;
-  z-index: 5;
-} */
 
 .projects-grid__row-item-overlay {
   position: absolute;
