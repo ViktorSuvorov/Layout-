@@ -215,9 +215,6 @@ h1 {
   margin-bottom: 15px;
 }
 
-.skills__skill {
-}
-
 .skills__photo {
   width: 50%;
 }
@@ -290,8 +287,6 @@ h1 {
   display: flex;
   justify-content: center;
 }
-
-
 
 .works__video img {
   display: block;
@@ -483,13 +478,6 @@ footer {
   }
 }
 
-/* @media (max-width: 1279px) {
-  .numbers__wrapper {
-    justify-content: space-between;
-    flex-direction: row;
-  }
-} */
-
 @media (max-width: 1279px) {
   .numbers__item {
     margin-bottom: 89px;
@@ -545,47 +533,10 @@ footer {
   }
 }
 
-@media (max-width: 1279px) {
-  .footer__links {
-  }
-}
-
-@media (max-width: 1279px) {
-  .footer__links a {
-    margin-left: 0;
-    margin-right: 10px;
-  }
-}
-
-/* @media (max-width: 970px) {
-  .numbers__wrapper {
-    justify-content: flex-start;
-    flex-direction: row;
-    width: 100%;
-  }
-} */
-
-@media (max-width: 900px) {
-  .projects {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media (max-width: 500px) {
-  .numbers__item {
-  }
-}
-
 @media (max-width: 480px) {
   .footer__wrapper {
     flex-direction: column;
     text-align: center;
-  }
-  .footer__links {
-    margin-top: 39px;
-  }
-  .footer__copyrights {
-    margin-top: 20px;
   }
 }
 
@@ -606,12 +557,6 @@ footer {
   }
 }
 
-@media (max-width: 480px) {
-  .projects-grid__row-item {
-    width: 50%;
-  }
-}
-
 /* iphone x */
 
 @media (max-width: 375px) {
@@ -627,9 +572,7 @@ footer {
   .header__logo {
     margin-top: 22px;
   }
-  .header {
-  }
-
+  
   .design__wrapper {
     padding-top: 57px;
     padding-bottom: 95px;
@@ -679,9 +622,34 @@ footer {
   .works__video-bg img {
     width: 25%;
   }
+
+  .projects-grid__row-item {
+    width: 50%;
+  }
+
   .offer__wrapper {
-    padding-bottom: 90px;
+    padding-bottom: 100px;
     padding-top: 90px;
+  }
+  .offer h2 {
+    margin-bottom: 34px;
+  }
+  .offer p {
+    margin-bottom: 48px;
+  }
+  .footer__copyrights {
+    margin-bottom: 33px;
+  }
+  .footer__author h3 {
+    margin-bottom: 20px;
+  }
+  .footer__links a {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .footer__wrapper {
+    display: flex;
+    justify-content: space-between;
   }
 }
 /* end */
