@@ -439,19 +439,6 @@ footer {
 /* /Footer */
 
 /* Media */
-@media (max-width: 1279px) {
-  button {
-    display: block;
-    margin: 0 auto;
-    width: 225px;
-    height: 65px;
-    background: #34547a;
-    border: 0;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #ffffff;
-  }
-}
 
 @media (max-width: 1279px) {
   nav {
@@ -628,6 +615,10 @@ footer {
 /* iphone x */
 
 @media (max-width: 375px) {
+  h2 {
+    font-weight: 500;
+  }
+
   .wrapper {
     padding-left: 19px;
     padding-right: 19px;
@@ -657,6 +648,10 @@ footer {
     padding-bottom: 82px;
   }
 
+  .about-me h2 {
+    margin-bottom: 30px;
+  }
+
   .numbers__item-text p {
     padding-right: 19px;
   }
@@ -671,6 +666,22 @@ footer {
   }
   .numbers__item {
     margin-bottom: 70px;
+  }
+
+  .skills {
+    padding-bottom: 80px;
+  }
+
+  .works__wrapper {
+    padding-bottom: 90px;
+    padding-top: 90px;
+  }
+  .works__video-bg img {
+    width: 25%;
+  }
+  .offer__wrapper {
+    padding-bottom: 90px;
+    padding-top: 90px;
   }
 }
 /* end */
