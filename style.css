@@ -174,7 +174,6 @@ h1 {
   justify-content: space-between;
   padding-top: 100px;
   padding-bottom: 100px;
-  padding-right:30px ;
   color: #fff;
 }
 
@@ -191,7 +190,7 @@ h1 {
   margin-left: 20px;
 }
 
-.numbers__item-text p{
+.numbers__item-text p {
   color: #fff;
 }
 /* /Numbers */
@@ -507,16 +506,16 @@ footer {
   }
 }
 
-@media (max-width: 1279px) {
+/* @media (max-width: 1279px) {
   .numbers__wrapper {
     justify-content: space-between;
     flex-direction: row;
   }
-}
+} */
 
 @media (max-width: 1279px) {
   .numbers__item {
-    margin-bottom: 32px;
+    margin-bottom: 89px;
   }
 }
 
@@ -535,7 +534,6 @@ footer {
     padding-right: 24px;
     justify-self: center;
     margin: 0 auto;
-    /* text-align: center; */
   }
   .skills__info h2 {
     text-align: center;
@@ -582,14 +580,13 @@ footer {
   }
 }
 
-@media (max-width: 970px) {
+/* @media (max-width: 970px) {
   .numbers__wrapper {
     justify-content: flex-start;
     flex-direction: row;
     width: 100%;
-    margin-left: 10px;
   }
-}
+} */
 
 @media (max-width: 900px) {
   .projects {
@@ -598,21 +595,7 @@ footer {
 }
 
 @media (max-width: 500px) {
-  .design__wrapper {
-    padding-top: 75px;
-    padding-bottom: 51px;
-  }
-  .design__text button {
-    margin-top: 44px;
-  }
-  .design__text h1 {
-    font-size: 33px;
-  }
-}
-
-@media (max-width: 500px) {
   .numbers__item {
-    margin-right: 20px;
   }
 }
 
@@ -648,7 +631,56 @@ footer {
 
 @media (max-width: 480px) {
   .projects-grid__row-item {
-   width: 50%;
+    width: 50%;
+  }
+}
+
+/* iphone x */
+
+@media (max-width: 375px) {
+  .wrapper {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .header__logo {
+    margin-top: 22px;
+  }
+  .header {
+  }
+
+  .design__wrapper {
+    padding-top: 57px;
+    padding-bottom: 95px;
+  }
+  .design__text {
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  .design__text h1 {
+    margin-bottom: 32px;
+    font-size: 36px;
+  }
+
+  .about-me {
+    padding-top: 91px;
+    padding-bottom: 82px;
+  }
+
+  .numbers__item-text p {
+    padding-right: 19px;
+  }
+
+  .numbers__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 70px;
+    padding-bottom: 0px;
+  }
+  .numbers__item {
+    margin-bottom: 70px;
   }
 }
 /* end */
