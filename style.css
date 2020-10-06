@@ -271,11 +271,11 @@ h1 {
   margin: 0 auto;
   margin-bottom: 55px;
 }
-.works__video {
+.works-content__video {
   position: relative;
 }
 
-.works__video-bg {
+.works-video__bg {
   position: absolute;
   background: rgba(0, 0, 0, 0.65);
   width: 100%;
@@ -288,15 +288,15 @@ h1 {
   justify-content: center;
 }
 
-.works__video img {
+.works-video img {
   display: block;
   width: 100%;
 }
 
-.works__video-bg img {
+.works-video__bg img {
   width: 10%;
   display: block;
-  cursor: ;
+  cursor: pointer;
 }
 
 /* Projects */
@@ -622,7 +622,7 @@ footer {
   }
   
 
-  .works__video-bg img {
+  .works-video__bg img {
     width: 25%;
   }
 
