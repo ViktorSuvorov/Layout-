@@ -376,6 +376,7 @@ h1 {
   font-size: 14px;
   color: #5f5d5d;
   padding-left: 20px;
+  padding-right: 20px;
   padding-top: 17px;
   padding-bottom: 18px;
   resize: none;
@@ -614,6 +615,10 @@ footer {
 
   .skills {
     padding-bottom: 80px;
+  }
+  .skills__photo img {
+    padding-left: 18px;
+    padding-right: 18px;
   }
 
   .works__wrapper {
