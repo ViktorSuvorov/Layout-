@@ -1,2 +1,2 @@
 Учебная верстка под два разрешения.
-Destktop and Iphone X.
+Desktop and Iphone X.
